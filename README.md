@@ -10,3 +10,12 @@ apt-file search add-apt-repository
 
 python-software-properties: /usr/bin/add-apt-repository
 python-software-properties: /usr/share/man/man1/add-apt-repository.1.gz
+
+#Install Filezilla FTP Client
+apt-get install filezilla filezilla-common -y
+
+#instalar SublimeText
+#Instalando na versão x64
+wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb && sudo dpkg -i sublime-text_build-3065_amd64.deb
+#Instalando na versão x86
+wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_i386.deb && sudo dpkg -i sublime-text_build-3065_i386.deb
