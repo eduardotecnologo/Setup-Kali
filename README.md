@@ -26,4 +26,6 @@ wget -N http://nodejs.org/dist/node-latest.tar.gz
 tar xzvf node-latest.tar.gz && cd `ls -rd node-v*`
 ./configure
 make install
+#instalando Chromium
+sudo apt-get install chromium
 
