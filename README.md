@@ -19,3 +19,11 @@ apt-get install filezilla filezilla-common -y
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb && sudo dpkg -i sublime-text_build-3065_amd64.deb
 #Instalando na versão x86
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_i386.deb && sudo dpkg -i sublime-text_build-3065_i386.deb
+#instalando nodeJs
+apt-get install make python g++
+mkdir ~/nodejs && cd $_
+wget -N http://nodejs.org/dist/node-latest.tar.gz
+tar xzvf node-latest.tar.gz && cd `ls -rd node-v*`
+./configure
+make install
+
