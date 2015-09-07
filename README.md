@@ -28,4 +28,12 @@ tar xzvf node-latest.tar.gz && cd `ls -rd node-v*`
 make install
 #instalando Chromium
 sudo apt-get install chromium
+#Instalando phpmyadmin
+apt-get install phpmyadmin 
+#instalando Chorme
+Execute os seguinte comando no terminal:
+# wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+# apt-get update
+# apt-get install google-chrome-stable
+
 
