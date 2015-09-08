@@ -28,6 +28,8 @@ tar xzvf node-latest.tar.gz && cd `ls -rd node-v*`
 make install
 #instalando Chromium
 sudo apt-get install chromium
+#Instalar LAMP com apena um comando
+sudo apt-get install lamp-server^
 #Instalando phpmyadmin
 apt-get install phpmyadmin 
 #instalando Chorme
