@@ -35,3 +35,21 @@ apt-get install make python g++
 mkdir ~/nodejs && cd $_
 wget -N http://nodejs.org/dist/node-latest.tar.gz
 tar xzvf node-latest.tar.gz && cd `ls -rd node-v*`
+### Instalando PHP 5
+## Adicione essas fontes de pacotes em seu arquivo sources.list: Digite o arquivo via:
+sudo nano /etc/apt/sources.list
+## Adicionar estas linhas no final do arquivo 
+deb http://packages.dotdeb.org wheezy-php55 all
+deb-src http://packages.dotdeb.org wheezy-php55 all
+## Save and close (CTRL-X, “y”, ENTER).
+sudo apt-get update
+## Rode esse comando
+wget http://www.dotdeb.org/dotdeb.gpg
+sudo apt-key add dotdeb.gpg
+sudo apt-get update
+## Instale a última versão do PHP 5
+sudo apt-get install php5
+## Verifique a Versão Instalada
+php -v
+## Saída na data de Hoje
+PHP 5.6.9-0+deb8u1
