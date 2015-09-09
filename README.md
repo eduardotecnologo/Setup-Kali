@@ -39,3 +39,5 @@ Execute os seguinte comando no terminal:
 # apt-get install google-chrome-stable
 
 
+
+
