@@ -53,3 +53,11 @@ sudo apt-get install php5
 php -v
 ## Saída na data de Hoje
 PHP 5.6.9-0+deb8u1
+### Instalação do Composer
+$ cd /usr/src
+$ sudo apt-get install curl php5-cli
+$ curl -sS https://getcomposer.org/installer | sudo php
+$ sudo mv composer.phar /usr/bin/composer
+### Verificar installation:
+$ composer --version
+Composer version 1.0-dev (9f6fdfd703f433bd0777fd89fb4684908a6c4f06) 2015-09-07 16:55:30
