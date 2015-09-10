@@ -66,3 +66,7 @@ $ sudo mv composer.phar /usr/bin/composer
 $ composer --version
 
 Composer version 1.0-dev () 2015-09-07 16:55:30
+### Instalação do MySql Workbench
+sudo add-apt-repository ppa:olivier-berten/misc && sudo apt-get update 
+
+sudo apt-get install mysql-workbench 
