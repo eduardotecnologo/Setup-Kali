@@ -99,3 +99,4 @@ Composer version 1.0-dev () 2015-09-07 16:55:30
 sudo add-apt-repository ppa:olivier-berten/misc && sudo apt-get update 
 
 sudo apt-get install mysql-workbench 
+http://www.vivaolinux.com.br/dica/Como-criar-pendrive-bootavel-de-qualquer-ISO-GnuLinux
