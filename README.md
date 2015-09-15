@@ -54,11 +54,14 @@ apt-get install filezilla filezilla-common -
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb && sudo dpkg -i sublime-text_build-3065_amd64.deb
 ### Instalando na versão x86
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_i386.deb && sudo dpkg -i sublime-text_build-3065_i386.deb
-### instalando nodeJs
-apt-get install make python g++
-mkdir ~/nodejs && cd $_
-wget -N http://nodejs.org/dist/node-latest.tar.gz
-tar xzvf node-latest.tar.gz && cd `ls -rd node-v*`
+### Setup NodeJS with Debian (as root):
+apt-get install curl
+
+curl --silent --location https://deb.nodesource.com/setup_0.12 | bash -
+
+Then install with Debian (as root):
+
+apt-get install --yes nodejs
 ### Instalando PHP 5
 ## Adicione essas fontes de pacotes em seu arquivo sources.list: Digite o arquivo via:
 sudo nano /etc/apt/sources.list
