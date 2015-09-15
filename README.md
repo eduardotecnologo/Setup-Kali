@@ -54,11 +54,6 @@ apt-get install filezilla filezilla-common -
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb && sudo dpkg -i sublime-text_build-3065_amd64.deb
 ### Instalando na versão x86
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_i386.deb && sudo dpkg -i sublime-text_build-3065_i386.deb
-### instalar SublimeText
-### Instalando na versão x64
-wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb && sudo dpkg -i sublime-text_build-3065_amd64.deb
-### Instalando na versão x86
-wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_i386.deb && sudo dpkg -i sublime-text_build-3065_i386.deb
 ### instalando nodeJs
 apt-get install make python g++
 mkdir ~/nodejs && cd $_
@@ -99,4 +94,4 @@ Composer version 1.0-dev () 2015-09-07 16:55:30
 sudo add-apt-repository ppa:olivier-berten/misc && sudo apt-get update 
 
 sudo apt-get install mysql-workbench 
-http://www.vivaolinux.com.br/dica/Como-criar-pendrive-bootavel-de-qualquer-ISO-GnuLinux
+
